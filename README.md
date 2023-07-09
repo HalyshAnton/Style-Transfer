@@ -22,9 +22,9 @@ For downloading data run next lines
 
 tfds.load("voc")
 
-Dataset consist of pairs of style and content images
+Dataset consist of 7000 pairs of style and content images
 
-(https://github.com/HalyshAnton/Style-Transfer/blob/main/data_visual.png)
+![alt text](https://github.com/HalyshAnton/Style-Transfer/blob/main/data_visual.png)
 
 ## Model Building
 The model building process consists of the following steps:
@@ -32,9 +32,9 @@ The model building process consists of the following steps:
 * AdaIN: non-trainable part that normalized content features and linearly shift it to style fearture mean and variance(for more details read article)
 * Decoder: The reverse of the encoder process is performed using a decoder. It has reversed architecture without any normalization and UpSampling layers instead Pooling ones. This step involves reconstructing the image from the combined features obtained from the AdaIN step.
 
-  image
+![alt text](https://github.com/HalyshAnton/Style-Transfer/blob/main/model_architecture.png)
 
 ## Model Performance
 Here are results of trained model after 50 epochs
 
-
+![alt text](https://github.com/HalyshAnton/Style-Transfer/blob/main/stylized_images.png)
