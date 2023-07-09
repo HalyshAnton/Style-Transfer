@@ -24,7 +24,7 @@ tfds.load("voc")
 
 Dataset consist of pairs of style and content images
 
-images
+(https://github.com/HalyshAnton/Style-Transfer/blob/main/data_visual.png)
 
 ## Model Building
 The model building process consists of the following steps:
