@@ -11,14 +11,14 @@ http://host.robots.ox.ac.uk/pascal/VOC/voc2007/
 
 ## Data Structure
 For downloading data run next lines  
-! mkdir ~/.kaggle
-! cp kaggle.json ~/.kaggle/
-! chmod 600 ~/.kaggle/kaggle.json
-! kaggle datasets download ikarus777/best-artworks-of-all-time
-! unzip -qq best-artworks-of-all-time.zip
-! rm -rf images
-! mv resized artwork
-! rm best-artworks-of-all-time.zip artists.csv
+! mkdir ~/.kaggle  
+! cp kaggle.json ~/.kaggle/  
+! chmod 600 ~/.kaggle/kaggle.json  
+! kaggle datasets download ikarus777/best-artworks-of-all-time  
+! unzip -qq best-artworks-of-all-time.zip  
+! rm -rf images  
+! mv resized artwork  
+! rm best-artworks-of-all-time.zip artists.csv  
 
 tfds.load("voc")
 
