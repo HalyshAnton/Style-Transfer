@@ -11,6 +11,7 @@ http://host.robots.ox.ac.uk/pascal/VOC/voc2007/
 
 ## Data Structure
 For downloading data run next lines
+
 ! mkdir ~/.kaggle
 ! cp kaggle.json ~/.kaggle/
 ! chmod 600 ~/.kaggle/kaggle.json
