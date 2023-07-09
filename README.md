@@ -10,7 +10,7 @@ http://host.robots.ox.ac.uk/pascal/VOC/voc2007/
 **Article:** https://arxiv.org/pdf/1703.06868.pdf
 
 ## Data Structure
-For downloading data run next lines 
+For downloading data run next lines /
 ! mkdir ~/.kaggle
 ! cp kaggle.json ~/.kaggle/
 ! chmod 600 ~/.kaggle/kaggle.json
