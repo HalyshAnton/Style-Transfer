@@ -37,3 +37,4 @@ The model building process consists of the following steps:
 ## Model Performance
 Here are results from trained model after 10000 iterations(for better result more ones are needed)
 
+![alt text](https://github.com/HalyshAnton/Style-Transfer/blob/main/stylized_images.png)
