@@ -35,6 +35,6 @@ The model building process consists of the following steps:
 ![alt text](https://github.com/HalyshAnton/Style-Transfer/blob/main/model_architecture.png)
 
 ## Model Performance
-Here are results from trained model after 50 epochs(for better result more epochs are needed)
+Here are results from trained model after 10000 iterations(for better result more ones are needed)
 
 ![alt text](https://github.com/HalyshAnton/Style-Transfer/blob/main/stylized_images.png)
